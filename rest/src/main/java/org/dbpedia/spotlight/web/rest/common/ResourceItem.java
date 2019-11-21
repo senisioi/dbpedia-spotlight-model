@@ -19,31 +19,31 @@ import static org.dbpedia.spotlight.web.rest.common.Constants.COMMA;
 public class ResourceItem {
 
     @JsonProperty("@URI")
-    @SerializedName("@URI")
+    @SerializedName("URI")
     private String uri;
 
     @JsonProperty("@support")
-    @SerializedName("@support")
+    @SerializedName("support")
     private String support;
 
     @JsonProperty("@types")
-    @SerializedName("@types")
+    @SerializedName("types")
     private String types;
 
     @JsonProperty("@surfaceForm")
-    @SerializedName("@surfaceForm")
+    @SerializedName("surfaceForm")
     private String surfaceForm;
 
     @JsonProperty("@offset")
-    @SerializedName("@offset")
+    @SerializedName("offset")
     private String offSet;
 
     @JsonProperty("@similarityScore")
-    @SerializedName("@similarityScore")
+    @SerializedName("similarityScore")
     private String similarityScore;
 
     @JsonProperty("@percentageOfSecondRank")
-    @SerializedName("@percentageOfSecondRank")
+    @SerializedName("percentageOfSecondRank")
     private String percentageOfSecondRank;
 
 

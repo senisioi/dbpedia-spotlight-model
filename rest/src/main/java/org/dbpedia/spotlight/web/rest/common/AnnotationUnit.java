@@ -19,27 +19,27 @@ import static org.dbpedia.spotlight.web.rest.common.Constants.COMMA;
 public class AnnotationUnit {
 
     @JsonProperty("@text")
-    @SerializedName("@text")
+    @SerializedName("text")
     private String text;
 
     @JsonProperty("@confidence")
-    @SerializedName("@confidence")
+    @SerializedName("confidence")
     private String confidence;
 
     @JsonProperty("@support")
-    @SerializedName("@support")
+    @SerializedName("support")
     private String support;
 
     @JsonProperty("@types")
-    @SerializedName("@types")
+    @SerializedName("types")
     private String types;
 
     @JsonProperty("@sparql")
-    @SerializedName("@sparql")
+    @SerializedName("sparql")
     private String sparql;
 
     @JsonProperty("@policy")
-    @SerializedName("@policy")
+    @SerializedName("policy")
     private String policy;
 
     @JsonProperty("Resources")
